@@ -97,7 +97,7 @@ export default class Filter extends Component {
               key={index}
               className={`toggle ${
                 selectedType === item ? "selected" : ""
-              } btn mr-1 filter-button-selected-primary font-weight-bold`}
+              } mr-2 `}
               onClick={this.handleTypeChange.bind(this, item)}
             >
               {item}
@@ -117,7 +117,7 @@ export default class Filter extends Component {
                 selectedTransmissions.find(elem => elem === item)
                   ? "selected"
                   : ""
-              } btn mr-1 filter-button-selected-primary font-weight-bold`}
+              } mr-2`}
               onClick={this.handleTransmissonClick.bind(this, item)}
             >
               {item}
@@ -138,7 +138,7 @@ export default class Filter extends Component {
                 selectedEngineTypes.find(elem => elem === item)
                   ? "selected"
                   : ""
-              } btn mr-1 filter-button-selected-primary font-weight-bold`}
+              } mr-2`}
               onClick={this.handleEngineTypeClick.bind(this, item)}
             >
               {item}

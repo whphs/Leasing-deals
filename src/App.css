@@ -101,21 +101,7 @@
   background: linear-gradient(90deg, #efefef, #fff);
   border-radius: 7px;
 }
-.filter-button-disabled-primary {
-  background-color: #c9c7c8 !important;
-  color: #212529 !important;
-  border-color: #c9c7c8 !important;
-  width: 100%;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out !important;
-}
-.filter-button-selected-primary {
-  background-color: #28a745 !important;
-  color: #fff !important;
-  border-color: #28a745 !important;
-  /* width: 100%; */
-}
-.spinner-pos {
+.spinner-border {
   position: relative !important;
   display: block !important;
   margin-left: auto !important;
@@ -128,4 +114,19 @@
 .mark,
 mark {
   background-color: #ffffc8 !important;
+}
+button.toggle {
+  outline: 0 !important;
+  border: 1px solid #28a745;
+  border-radius: 4px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 4px 10px;
+}
+button.toggle.selected,
+button.toggle:hover {
+  background: #28a745;
+  border: 1px solid #28a745;
+  color: white;
 }

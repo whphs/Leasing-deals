@@ -162,7 +162,7 @@ export default class MainPage extends Component {
           />
         </InputGroup>
         {loading ? (
-          <Spinner animation="border" className="spinner-pos" />
+          <Spinner animation="border" />
         ) : (
           <div />
         )}
